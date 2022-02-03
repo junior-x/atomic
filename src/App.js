@@ -3,15 +3,9 @@ import ProfileUser from './components/profileUser';
 
 function App() {
   return (
-    <div >
-
-      <header>
+    <div>
       <h1>HELLO WORLD</h1>
-
       <ProfileUser />
-      </header>
-
-
     </div>
   );
 }
