@@ -1,11 +1,12 @@
+$primaryColor: #837FB1;
+$backgroundColor: #FFF;
+$bodyColor: #FAFAFA;
 $grid-gutter: 1%;
 $grid-columns: 12;
-$grid-max: 980px;
+$grid-max: 1280px;
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  justify-content: center;
 }
 
 [class*="body"] {
@@ -24,34 +25,34 @@ $grid-max: 980px;
 [class*="container"] {
     
   height: 200px; 
-  width: 72%;
+  width: 90vw;
   align-items: center;
-  background-color: #8c8c8c;
+  background-color: $backgroundColor;
+  box-shadow: 3px 3px 3px 3px #f6f6ff;
 }
 
 // Grids
-[class*="grid-1"] {
-  background: lightgray;
+[class*="grid-3"] {
+  background: #FAFAFA;
   outline: 1px solid gray;
   float: left;
   padding: 0 $grid-gutter;
-  margin-bottom: 20px;
   flex-wrap: wrap;
-  height: 100px;
+  height: 100%;
 }
 
-[class*="grid-1"] {
-  background: lightgray;
-  outline: 1px solid gray;
-  float: left;
-  padding: 0 $grid-gutter;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
-  height: 100px;
-}
+// [class*="grid-1"] {
+//   background: lightgray;
+//   outline: 1px solid gray;
+//   float: left;
+//   padding: 0 $grid-gutter;
+//   margin-bottom: 20px;
+//   flex-wrap: wrap;
+//   height: 100px;
+// }
 
 [class*="grid-"] {
-  background: lightgray;
+  background: $primaryColor;
   outline: 1px solid gray;
   float: left;
   padding: 0 $grid-gutter;
@@ -63,4 +64,11 @@ $grid-max: 980px;
   .grid-#{$i} {
     width: 100% / $grid-columns * $i;
   }
+}
+
+[class*="skillsButton"] {
+  background: #FAFAFA;
+  width: 90%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }

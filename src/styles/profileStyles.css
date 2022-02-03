@@ -1,8 +1,7 @@
 * {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 [class*="body"] {
@@ -23,37 +22,27 @@
 
 [class*="container"] {
   height: 200px;
-  width: 72%;
+  width: 90vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #8c8c8c;
+  background-color: #FFF;
+  -webkit-box-shadow: 3px 3px 3px 3px #f6f6ff;
+          box-shadow: 3px 3px 3px 3px #f6f6ff;
 }
 
-[class*="grid-1"] {
-  background: lightgray;
+[class*="grid-3"] {
+  background: #FAFAFA;
   outline: 1px solid gray;
   float: left;
   padding: 0 1%;
-  margin-bottom: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: 100px;
-}
-
-[class*="grid-1"] {
-  background: lightgray;
-  outline: 1px solid gray;
-  float: left;
-  padding: 0 1%;
-  margin-bottom: 20px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  height: 100px;
+  height: 100%;
 }
 
 [class*="grid-"] {
-  background: lightgray;
+  background: #837FB1;
   outline: 1px solid gray;
   float: left;
   padding: 0 1%;
@@ -109,4 +98,14 @@
 .grid-12 {
   width: 100%;
 }
-/*# sourceMappingURL=userStyles.css.map */
+
+[class*="skillsButton"] {
+  background: #FAFAFA;
+  width: 90%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=profileStyles.css.map */

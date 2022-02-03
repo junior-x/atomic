@@ -1,15 +1,17 @@
-import "./../styles/userStyles.css"
+import "./../styles/profileStyles.css"
 function ProfileUser() {
     return (
         <div class="body">
             <div class="container">
-                <div class="grid-1">Coluna de 4</div>
-                <div class="grid-2">Coluna de 2</div>
-                <div class="grid-4">Coluna de 4</div>
+                <div class="grid-3">Coluna de 3</div>
+                <div class="grid-9">Coluna de 9</div>
+                <div class="grid-9">Coluna de 9</div>
+                <div class="skillsButton">
+                    <button class={{ marginLeft: "30px" }}>JAVASCRIPT</button>
+                    <button class={{ paddingLeft: "30px" }}>REACT-NATIVE</button>
+                </div>
             </div>
-        <button class={{alignItems: "center"}}>CENTER</button>
         </div>
-
     );
 }
 
