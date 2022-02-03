@@ -1,21 +1,54 @@
 $grid-gutter: 1%;
 $grid-columns: 12;
 $grid-max: 980px;
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-////
+
+[class*="body"] {
+  float: left;
+  width: 100vw;
+}
+
+[class*="container"] {
+  height: 200px;
+  width: 72%;
+  align-items: center;
+  background-color: #8c8c8c;
+}
+
 // Grids
-////
+[class*="grid-1"] {
+  background: lightgray;
+  outline: 1px solid gray;
+  float: left;
+  padding: 0 $grid-gutter;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  height: 100px;
+}
+
+[class*="grid-1"] {
+  background: lightgray;
+  outline: 1px solid gray;
+  float: left;
+  padding: 0 $grid-gutter;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  height: 100px;
+}
+
 [class*="grid-"] {
   background: lightgray;
   outline: 1px solid gray;
   float: left;
   padding: 0 $grid-gutter;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
-@for $i from 1 through $grid-columns{ 
+@for $i from 1 through $grid-columns {
   .grid-#{$i} {
     width: 100% / $grid-columns * $i;
   }
