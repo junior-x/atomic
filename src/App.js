@@ -1,12 +1,19 @@
+import React from 'react';
 import './App.css';
 import ProfileUser from './components/profileUser';
 
 function App() {
   return (
-    <div>
-      <h1>HELLO WORLD</h1>
-      <ProfileUser />
-    </div>
+    <>
+      <header style={{alignItems: "flex-start", justifyContent: "flex-start"}}>
+        {/* <h1>MARCOS MANSUR</h1> */}
+        <ProfileUser />
+      </header>
+      <div>
+      </div>
+      <div style={{height: "100px"}}>
+      </div>
+    </>
   );
 }
 

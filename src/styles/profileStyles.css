@@ -18,22 +18,24 @@
      -moz-text-size-adjust: none;
       -ms-text-size-adjust: none;
           text-size-adjust: none;
+  height: 100%;
 }
 
 [class*="container"] {
-  height: 200px;
+  padding: 30px;
+  height: 240px;
   width: 90vw;
+  max-width: 80vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #FFF;
+  background-color: #fff;
   -webkit-box-shadow: 3px 3px 3px 3px #f6f6ff;
           box-shadow: 3px 3px 3px 3px #f6f6ff;
 }
 
 [class*="grid-3"] {
-  background: #FAFAFA;
-  outline: 1px solid gray;
+  background: #fafafa;
   float: left;
   padding: 0 1%;
   -ms-flex-wrap: wrap;
@@ -42,8 +44,7 @@
 }
 
 [class*="grid-"] {
-  background: #837FB1;
-  outline: 1px solid gray;
+  background: #fff;
   float: left;
   padding: 0 1%;
   margin-bottom: 20px;
@@ -100,12 +101,19 @@
 }
 
 [class*="skillsButton"] {
-  background: #FAFAFA;
-  width: 90%;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  background: #fff;
+  width: 100%;
+}
+
+.stylesButton {
+  display: inline-block;
+  padding: 0.338em 1.275em;
+  border: 0.094em solid #837fb1;
+  background-color: #837fb1;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 21px;
 }
 /*# sourceMappingURL=profileStyles.css.map */

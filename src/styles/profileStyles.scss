@@ -1,6 +1,6 @@
-$primaryColor: #837FB1;
-$backgroundColor: #FFF;
-$bodyColor: #FAFAFA;
+$primaryColor: #837fb1;
+$backgroundColor: #fff;
+$bodyColor: #fafafa;
 $grid-gutter: 1%;
 $grid-columns: 12;
 $grid-max: 1280px;
@@ -10,22 +10,24 @@ $grid-max: 1280px;
 }
 
 [class*="body"] {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    text-size-adjust: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+  height: 100%;
 }
 
 [class*="container"] {
-    
-  height: 200px; 
+  padding: 30px;
+  height: 240px;
   width: 90vw;
+  max-width: 80vw;
   align-items: center;
   background-color: $backgroundColor;
   box-shadow: 3px 3px 3px 3px #f6f6ff;
@@ -33,8 +35,7 @@ $grid-max: 1280px;
 
 // Grids
 [class*="grid-3"] {
-  background: #FAFAFA;
-  outline: 1px solid gray;
+  background: #fafafa;
   float: left;
   padding: 0 $grid-gutter;
   flex-wrap: wrap;
@@ -52,8 +53,7 @@ $grid-max: 1280px;
 // }
 
 [class*="grid-"] {
-  background: $primaryColor;
-  outline: 1px solid gray;
+  background: $backgroundColor;
   float: left;
   padding: 0 $grid-gutter;
   margin-bottom: 20px;
@@ -67,8 +67,18 @@ $grid-max: 1280px;
 }
 
 [class*="skillsButton"] {
-  background: #FAFAFA;
-  width: 90%;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  background: $backgroundColor;
+  width: 100%;
+}
+
+.stylesButton {
+  display: inline-block;
+  padding: 0.338em 1.275em;
+  border: 0.094em solid $primaryColor;
+  background-color: $primaryColor;
+  color: $backgroundColor;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 21px;
 }
