@@ -4,14 +4,18 @@ import Jupiter from './juptierDiv';
 import Xp from './xpDiv';
 import Education from './educationDiv';
 import HackintoshJunior from './hackingtoshJunior';
+import ProfileUser from '../components/profileUser';
 
 function Hackintosh() {
     return (
         <>
-            <HackintoshJunior />
-            <Jupiter />
-            <Xp />
-            <Education />
+            <div className='body'>
+                <HackintoshJunior />
+                <ProfileUser />
+                <Jupiter />
+                <Xp />
+                <Education />
+            </div>
         </>
     );
 }
