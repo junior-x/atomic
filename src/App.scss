@@ -1,20 +1,4 @@
-$primaryColor: #837FB1;
-$bodyColor: #FAFAFA;
-
-* {
-  padding: 0;
-  margin: 0;
-  justify-content: center;
-}
-
-body {
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-color: $bodyColor;
-  
-}
-
-
-//////@at-root
-
+@import "styles/base";
+@import "styles/jupiterStyles";
+@import "styles/profileStyles";
+@import "styles/hackintoshJuniorStyles"

@@ -5,7 +5,11 @@ import SvgAboutMe from '../assets/AboutMe';
 function Jupiter() {
   return (
     <>
-      <SvgAboutMe />
+      <div>
+
+          <SvgAboutMe />
+      </div>
+
     </>
   );
 }

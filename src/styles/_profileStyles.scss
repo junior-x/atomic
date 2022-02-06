@@ -1,0 +1,82 @@
+// $primaryColor: #837fb1;
+// $backgroundColor: #fff;
+// $bodyColor: #fafafa;
+// $grid-gutter: 1%;
+// $grid-columns: 12;
+// $grid-max: 1280px;
+
+// * {
+//   justify-content: center;
+// }
+
+// [class*="body"] {
+//   position: relative;
+//   margin: 0;
+//   padding: 0;
+//   border: 0;
+//   font-size: 100%;
+//   font: inherit;
+//   vertical-align: baseline;
+//   text-rendering: optimizeLegibility;
+//   -webkit-font-smoothing: antialiased;
+//   text-size-adjust: none;
+//   height: 100%;
+// }
+
+// // Grids
+// [class*="grid-3"] {
+//   background: #fafafa;
+//   display: flex;
+//   justify-content: flex-end;
+//   float: left;
+//   padding: 0 $grid-gutter;
+//   flex-wrap: wrap;
+//   height: 90%;
+// }
+
+// // [class*="grid-1"] {
+// //   background: lightgray;
+// //   outline: 1px solid gray;
+// //   float: left;
+// //   padding: 0 $grid-gutter;
+// //   margin-bottom: 20px;
+// //   flex-wrap: wrap;
+// //   height: 100px;
+// // }
+
+// [class*="grid-"] {
+//   background: $backgroundColor;
+//   float: left;
+//   padding: 0 $grid-gutter;
+//   margin-bottom: 20px;
+//   flex-wrap: wrap;
+// }
+
+// @for $i from 1 through $grid-columns {
+//   .grid-#{$i} {
+//     width: 100% / $grid-columns * $i;
+//   }
+// }
+
+// .stylesButton {
+//   display: inline-block;
+//   padding: 0.338em 1.275em;
+//   border: 0.094em solid $primaryColor;
+//   background-color: $primaryColor;
+//   color: $backgroundColor;
+//   text-decoration: none;
+//   text-transform: uppercase;
+//   cursor: pointer;
+//   margin-left: 21px;
+// }
+
+// .user-photo {
+//   width: 9vw;
+//   height: 9vw;
+//   min-width: 10vh;
+//   min-height: 10vh;
+//   border-radius: 50%;
+//   box-shadow: 3px 3px 3px 3px #837fb1;
+//   align-items: flex-end;
+//   margin-right: 10px;
+// }

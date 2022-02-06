@@ -1,0 +1,25 @@
+$primaryColor: #837FB1;
+$bodyColor: #FAFAFA;
+$backgroundColor: #fff;
+$grid-gutter: 1%;
+$grid-columns: 12;
+$grid-max: 1280px;
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+body {
+  @extend .flex;
+
+  container {
+    @extend .flex;
+    vertical-align: baseline;
+    height: 100%;
+    box-shadow: 3px 3px 3px 3px $primaryColor;
+  }
+  
+}

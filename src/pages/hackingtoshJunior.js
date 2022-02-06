@@ -5,8 +5,9 @@ import SvgHackintoshDiv from "./../assets/HackintoshDiv"
 function HackintoshJunior() {
   return (
     <>
-    <div class='body'>HackintoshJunior</div>
-      <SvgHackintoshDiv />
+      <div className='hackintosh'>
+        <SvgHackintoshDiv />
+      </div>
     </>
   );
 }

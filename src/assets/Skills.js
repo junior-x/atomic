@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgXp = (props) => (
+const SvgSkills = (props) => (
   <svg
     width={1182}
     height={1363}
@@ -328,4 +328,4 @@ const SvgXp = (props) => (
   </svg>
 );
 
-export default SvgXp;
+export default SvgSkills;
