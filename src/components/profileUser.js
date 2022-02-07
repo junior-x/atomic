@@ -12,14 +12,14 @@ function ProfileUser() {
                 </div>
                 <img src={AppleLogo} class="grid-3"></img>
                 <div class="grid-9">
-                    <div>Hackintosh</div>
-                    <div style={{color: "rgba(0, 0, 0, 0.21)", marginLeft: "18px"}}>/ Junior</div>
+                    <div style={{width: '21%'}}>Hackintosh</div>
+                    <div style={{color: "rgba(0, 0, 0, 0.21)", width: '36%'}}>/ Junior</div>
                 </div>
                 <div class="grid-8">Developer</div>
                 <div class="skillsButton">
-                    <button class="stylesButton">UI/UX</button>
+                    <button class="stylesButton animationButton">UI/UX</button>
                     <button class="stylesButton">JAVASCRIPT</button>
-                    <button class="stylesButton">MOTION DESIGN</button>
+                    <button class="stylesButton">MOTION</button>
                     <button class="stylesButton">REACTJS</button>
                     <button class="stylesButton">PYTHON</button>
                     <button class="stylesButton">PHP</button>

@@ -1,7 +1,35 @@
-jupiter {
-    // @extend .flex;
-    height: 100%;
+.jupiter {
+  // @extend .flex;
+  height: 1920px;
+  width: 100%;
+  background-color: $primaryColor;
+  box-shadow: 3px 3px 3px 3px $primaryColor;
+
+  .jupiterBack {
     align-items: center;
-    background-color: #837FB1;
-    box-shadow: 3px 3px 3px 3px $primaryColor;
+    justify-content: center;
   }
+
+  .jupiterMouseSpace {
+    display: flex;
+    padding-top: 90px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .jupiterWindows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 180px;
+  }
+  .jupiterWindowsScreen {
+    width: 1200px;
+    height: 630px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    padding: 9px;
+    border-radius: 30px;
+  }
+}
