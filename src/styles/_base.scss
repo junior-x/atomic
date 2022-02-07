@@ -18,17 +18,17 @@ $barR: #E03A3E;
 $barP: #963D97;
 $barB: #009DDC;
 
-@mixin font($robotoItalic) {
-    @font-face {
-        font-family: $robotoItalic;
-        src: url($robotoItalic+'../fonts/roboto-italic-webfont.woff2') format('woff2'),
-            url($robotoItalic+'../fonts/roboto-italic-webfont.woff') format('woff'),
-            url($robotoItalic+'../fonts/roboto-Italic.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
+// @mixin font($robotoItalic) {
+//     @font-face {
+//         font-family: $robotoItalic;
+//         src: url($robotoItalic+'../fonts/roboto-italic-webfont.woff2') format('woff2'),
+//             url($robotoItalic+'../fonts/roboto-italic-webfont.woff') format('woff'),
+//             url($robotoItalic+'../fonts/roboto-Italic.ttf') format('truetype');
+//         font-weight: normal;
+//         font-style: normal;
 
-    }
-}
+//     }
+// }
 
 // Reset
 // ---------
