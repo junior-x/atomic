@@ -1,55 +1,48 @@
-// $primaryColor: #837fb1;
-// $backgroundColor: #fff;
-// $bodyColor: #fafafa;
-// $grid-gutter: 1%;
-// $grid-columns: 12;
-// $grid-max: 1280px;
-
-// * {
-//   justify-content: center;
-// }
-
-// [class*="body"] {
-//   position: relative;
-//   margin: 0;
-//   padding: 0;
-//   border: 0;
-//   font-size: 100%;
-//   font: inherit;
-//   vertical-align: baseline;
-//   text-rendering: optimizeLegibility;
-//   -webkit-font-smoothing: antialiased;
-//   text-size-adjust: none;
-//   height: 100%;
+// .hack {
+//   background-color: $backgroundColor;
+//   width: 1124px;
+//   height: 391px;
+//   border-radius: 13px;
+//   box-shadow: -6px 9px 29px rgba(131, 127, 177, 0.3);
 // }
 
 // // Grids
 // [class*="grid-3"] {
-//   background: #fafafa;
 //   display: flex;
-//   justify-content: flex-end;
+//   justify-content: center;
 //   float: left;
 //   padding: 0 $grid-gutter;
 //   flex-wrap: wrap;
 //   height: 90%;
+//   padding-left: 0%;
 // }
 
-// // [class*="grid-1"] {
-// //   background: lightgray;
-// //   outline: 1px solid gray;
-// //   float: left;
-// //   padding: 0 $grid-gutter;
-// //   margin-bottom: 20px;
-// //   flex-wrap: wrap;
-// //   height: 100px;
-// // }
-
 // [class*="grid-"] {
-//   background: $backgroundColor;
 //   float: left;
 //   padding: 0 $grid-gutter;
 //   margin-bottom: 20px;
 //   flex-wrap: wrap;
+// }
+
+// [class*="grid-8"] {
+//   float: left;
+//   padding: 0 $grid-gutter;
+//   margin-bottom: 20px;
+//   flex-wrap: wrap;
+//   font-family: Roboto;
+//   font-style: italic;
+//   font-weight: 300;
+//   font-size: 24px;
+// }
+// [class*="grid-9"] {
+//   float: left;
+//   padding: 0 $grid-gutter;
+//   margin-bottom: 20px;
+//   flex-wrap: wrap;
+//   font-family: Abhaya Libre;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 36px;
 // }
 
 // @for $i from 1 through $grid-columns {
@@ -76,7 +69,36 @@
 //   min-width: 10vh;
 //   min-height: 10vh;
 //   border-radius: 50%;
-//   box-shadow: 3px 3px 3px 3px #837fb1;
-//   align-items: flex-end;
+//   box-shadow: -6px 6px 15px 9px #837fb11e;
+//   align-items: flex-start;
 //   margin-right: 10px;
+// }
+
+// .actionMac {
+//   display: flex;
+//   height: 60px;
+//   width: 7%;
+//   justify-content: space-between;
+//   padding: 10px;
+//   flex-direction: row;
+
+//   .dot {
+//     flex-direction: row;
+//     height: 15px;
+//     width: 15px;
+//     border-radius: 50%;
+//     box-shadow: (2px 2px 4px rgba(0, 0, 0, 0.11));
+//   }
+//   .red {
+//     @extend.dot;
+//     background-color: $dotRed;
+//   }
+//   .yellow {
+//     @extend.dot;
+//     background-color: $dotYello;
+//   }
+//   .green {
+//     @extend.dot;
+//     background-color: $dotGreen;
+//   }
 // }

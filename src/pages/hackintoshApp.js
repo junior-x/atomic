@@ -1,22 +1,21 @@
 import React from 'react';
 import './../App.css';
-import Jupiter from './juptierDiv';
-import Skills from './skillsDiv';
-import Education from './educationDiv';
-import HackintoshJunior from './hackingtoshJunior';
+// import SvgHackintoshDiv from "./../assets/HackintoshDiv";
 import ProfileUser from '../components/profileUser';
 
 function Hackintosh() {
     return (
         <>
-            <div className='container' >
-                <div style={{height: '150px'}}></div>
-                <HackintoshJunior />
-                <ProfileUser />
-                <Jupiter />
-                <Skills />
-                <Education />
+            <div className="fullBar">
+                <div className='barG'></div>
+                <div className='barY'></div>
+                <div className='barO'></div>
+                <div className='barR'></div>
+                <div className='barP'></div>
+                <div className='barB'></div>
             </div>
+            {/* <SvgHackintoshDiv /> */}
+            <ProfileUser />
         </>
     );
 }

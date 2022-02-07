@@ -1,4 +1,59 @@
-.flex, body, body container {
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.spacer {
+  height: 60px;
+}
+
+.flex, body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,14 +63,27 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+body {
+  background: #fafafa;
   width: 100%;
 }
 
-body container {
+body .container {
   vertical-align: baseline;
-  height: 100%;
-  -webkit-box-shadow: 3px 3px 3px 3px #837FB1;
-          box-shadow: 3px 3px 3px 3px #837FB1;
+  -webkit-box-shadow: 3px 3px 3px 3px #837fb1;
+          box-shadow: 3px 3px 3px 3px #837fb1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #837fb1;
 }
 
 jupiter {
@@ -24,11 +92,269 @@ jupiter {
       -ms-flex-align: center;
           align-items: center;
   background-color: #837FB1;
-  -webkit-box-shadow: 3px 3px 3px 3px #837FB1;
-          box-shadow: 3px 3px 3px 3px #837FB1;
+  -webkit-box-shadow: 3px 3px 3px 3px #837fb1;
+          box-shadow: 3px 3px 3px 3px #837fb1;
 }
 
-hackintosh {
-  height: 1200px;
+.hackintosh {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hack {
+  background-color: #fff;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  width: 1124px;
+  height: 391px;
+  border-radius: 13px;
+  -webkit-box-shadow: -6px 9px 29px rgba(131, 127, 177, 0.3);
+          box-shadow: -6px 9px 29px rgba(131, 127, 177, 0.3);
+}
+
+[class*="grid-3"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  float: left;
+  padding: 0 1%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 100%;
+  padding-left: 0%;
+  pointer-events: none;
+}
+
+[class*="grid-"] {
+  float: left;
+  padding: 0 1%;
+  margin-bottom: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+[class*="grid-8"] {
+  float: left;
+  padding: 0 1%;
+  margin-bottom: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+[class*="grid-9"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  padding: 0 1%;
+  margin-top: 21px;
+  margin-bottom: 15px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: Abhaya Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.grid-1 {
+  width: 8.33333%;
+}
+
+.grid-2 {
+  width: 16.66667%;
+}
+
+.grid-3 {
+  width: 25%;
+}
+
+.grid-4 {
+  width: 33.33333%;
+}
+
+.grid-5 {
+  width: 41.66667%;
+}
+
+.grid-6 {
+  width: 50%;
+}
+
+.grid-7 {
+  width: 58.33333%;
+}
+
+.grid-8 {
+  width: 66.66667%;
+}
+
+.grid-9 {
+  width: 75%;
+}
+
+.grid-10 {
+  width: 83.33333%;
+}
+
+.grid-11 {
+  width: 91.66667%;
+}
+
+.grid-12 {
+  width: 100%;
+}
+
+.skillsButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+}
+
+.stylesButton {
+  display: inline-block;
+  padding: 0.338em 1.275em;
+  border: 0.094em solid #837fb1;
+  background-color: #837fb1;
+  color: #fff;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 21px;
+  border-radius: 6px;
+  -webkit-box-shadow: -3px 4px 6px rgba(141, 90, 159, 0.25);
+          box-shadow: -3px 4px 6px rgba(141, 90, 159, 0.25);
+}
+
+.user-photo {
+  width: 9vw;
+  height: 9vw;
+  min-width: 10vh;
+  min-height: 10vh;
+  border-radius: 50%;
+  -webkit-box-shadow: -6px 6px 15px 9px #837fb11e;
+          box-shadow: -6px 6px 15px 9px #837fb11e;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-right: 10px;
+}
+
+.actionMac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  width: 7%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 3px;
+}
+
+.actionMac .dot, .actionMac .red, .actionMac .yellow, .actionMac .green {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.11);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.11);
+}
+
+.actionMac .red {
+  background-color: #ff6c6c;
+}
+
+.actionMac .yellow {
+  background-color: #fed174;
+}
+
+.actionMac .green {
+  background-color: #8bdb93;
+}
+
+.hackinLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.hackinLine .decoration {
+  width: 80%;
+  height: 2px;
+  background-color: #C4C4C4;
+}
+
+.fullBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 9px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.fullBar .barConfig, .fullBar .barG, .fullBar .barY, .fullBar .barO, .fullBar .barR, .fullBar .barP, .fullBar .barB {
+  width: 16.6666666667%;
+  height: 100%;
+}
+
+.fullBar .barG {
+  background-color: #61BB46;
+}
+
+.fullBar .barY {
+  background-color: #FDB827;
+}
+
+.fullBar .barO {
+  background-color: #F5821F;
+}
+
+.fullBar .barR {
+  background-color: #E03A3E;
+}
+
+.fullBar .barP {
+  background-color: #963D97;
+}
+
+.fullBar .barB {
+  background-color: #009DDC;
 }
 /*# sourceMappingURL=App.css.map */
