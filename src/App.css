@@ -87,12 +87,58 @@ body .container {
   background: #837fb1;
 }
 
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 210px;
+  color: white;
+  font-size: 63px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 36px;
+  color: white;
+  font-size: 24px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 210px;
+  color: #fff;
+  font-size: 27px;
+  line-height: 63px;
+}
+
 .jupiter {
-  height: 1920px;
+  height: 2400px;
   width: 100%;
-  background-color: #837fb1;
-  -webkit-box-shadow: 3px 3px 3px 3px #837fb1;
-          box-shadow: 3px 3px 3px 3px #837fb1;
+  background-color: #716da1;
+  -webkit-box-shadow: 3px 3px 3px 3px linear-gradient(#8e61ac, #3d3875);
+          box-shadow: 3px 3px 3px 3px linear-gradient(#8e61ac, #3d3875);
 }
 
 .jupiter .jupiterBack {
@@ -321,47 +367,6 @@ button:hover {
   margin-right: 10px;
 }
 
-.actionMac {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 60px;
-  width: 7%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 10px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-left: 3px;
-}
-
-.actionMac .dot, .actionMac .red, .actionMac .yellow, .actionMac .green {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.11);
-          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.11);
-}
-
-.actionMac .red {
-  background-color: #ff6c6c;
-}
-
-.actionMac .yellow {
-  background-color: #fed174;
-}
-
-.actionMac .green {
-  background-color: #8bdb93;
-}
-
 .hackinLine {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -417,5 +422,46 @@ button:hover {
 
 .fullBar .barB {
   background-color: #009DDC;
+}
+
+.actionMac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  width: 7%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 3px;
+}
+
+.actionMac .dot, .actionMac .red, .actionMac .yellow, .actionMac .green {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.11);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.11);
+}
+
+.actionMac .red {
+  background-color: #ff6c6c;
+}
+
+.actionMac .yellow {
+  background-color: #fed174;
+}
+
+.actionMac .green {
+  background-color: #8bdb93;
 }
 /*# sourceMappingURL=App.css.map */

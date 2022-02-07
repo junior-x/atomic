@@ -1,0 +1,30 @@
+
+.actionMac {
+    display: flex;
+    height: 60px;
+    width: 7%;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: row;
+    margin-left: 3px;
+  
+    .dot {
+      flex-direction: row;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      box-shadow: (2px 2px 4px rgba(0, 0, 0, 0.11));
+    }
+    .red {
+      @extend.dot;
+      background-color: $dotRed;
+    }
+    .yellow {
+      @extend.dot;
+      background-color: $dotYello;
+    }
+    .green {
+      @extend.dot;
+      background-color: $dotGreen;
+    }
+  }

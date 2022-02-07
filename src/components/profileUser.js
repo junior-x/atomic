@@ -1,15 +1,13 @@
+import React from "react";
 import "./../App.css"
 import AppleLogo from "./../assets/appleLogo.png"
+import ActionMac from "./actionMac";
 
 function ProfileUser() {
     return (
         <div className="hack">
             <div >
-                <div className="actionMac" >
-                    <div className="red"></div>
-                    <div className="yellow"></div>
-                    <div className="green"></div>
-                </div>
+                <ActionMac/>
                 <img src={AppleLogo} class="grid-3"></img>
                 <div class="grid-9">
                     <div style={{width: '21%'}}>Hackintosh</div>

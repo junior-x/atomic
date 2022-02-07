@@ -1,9 +1,42 @@
+h1 {
+  font-family: $fontFamilyRoboto;
+  font-style: italic;
+  display: flex; 
+  text-align:center; 
+  justify-content: center; 
+  padding-top: 210px; 
+  color: white; 
+  font-size: 63px;
+}
+
+h3 {
+  font-family: $fontFamilyRoboto;
+  font-style: italic;
+  display: flex; 
+  text-align:center; 
+  justify-content: center; 
+  padding-top: 36px; 
+  color: white; 
+  font-size: 24px;
+}
+
+p {
+  font-family: $fontFamilyRoboto;
+  font-style: italic;
+  display: flex;
+  text-align:center;
+  justify-content: center;
+  padding: 210px; 
+  color: $backgroundColor;
+  font-size: 27px;
+  line-height: 63px;
+}
+
 .jupiter {
-  // @extend .flex;
-  height: 1920px;
+  height: 2400px;
   width: 100%;
-  background-color: $primaryColor;
-  box-shadow: 3px 3px 3px 3px $primaryColor;
+  background-color: #716da1;
+  box-shadow: 3px 3px 3px 3px $gradienPrimarytColor;
 
   .jupiterBack {
     align-items: center;

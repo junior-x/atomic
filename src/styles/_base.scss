@@ -1,5 +1,6 @@
 $primaryColor: #837fb1;
 $fadeColor: #8e8abd;
+$gradienPrimarytColor:  linear-gradient(#8e61ac, #3d3875);
 $bodyColor: #fafafa;
 $backgroundColor: #fff;
 $greyColor: #C4C4C4;
@@ -21,20 +22,6 @@ $barB: #009DDC;
 
 $fontFamilyRoboto: 'Roboto', sans-serif;
 $fontFamilyAbhaya: 'Abhaya Libre', serif;
-
-
-
-// @mixin font($robotoItalic) {
-//     @font-face {
-//         font-family: $robotoItalic;
-//         src: url($robotoItalic+'../fonts/roboto-italic-webfont.woff2') format('woff2'),
-//             url($robotoItalic+'../fonts/roboto-italic-webfont.woff') format('woff'),
-//             url($robotoItalic+'../fonts/roboto-Italic.ttf') format('truetype');
-//         font-weight: normal;
-//         font-style: normal;
-
-//     }
-// }
 
 // Reset
 // ---------
