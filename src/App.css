@@ -88,8 +88,8 @@ body .container {
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
-  font-style: italic;
+  font-family: "Roboto", sans-serif, sans-serif;
+  font-style: bold;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,7 +99,7 @@ h1 {
           justify-content: center;
   padding-top: 210px;
   color: white;
-  font-size: 63px;
+  font-size: 42px;
 }
 
 h3 {
@@ -115,6 +115,26 @@ h3 {
   padding-top: 36px;
   color: white;
   font-size: 24px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 60px;
+  width: 60%;
+  color: #fff;
+  font-size: 21px;
+  line-height: 36px;
 }
 
 .icons {
@@ -148,24 +168,49 @@ h3 {
   padding-right: 36%;
 }
 
-p {
-  font-family: "Roboto", sans-serif;
-  font-style: italic;
+.iconsAbout {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 210px;
+  padding: 3%;
+  cursor: default;
+}
+
+.iconsAbout :hover {
+  -webkit-transform: translateY(-3px) scale(1.02);
+          transform: translateY(-3px) scale(1.02);
+  -webkit-transition-duration: 0.9s;
+          transition-duration: 0.9s;
+  -webkit-box-shadow: -3px 4px 6px rgba(141, 90, 159, 0);
+          box-shadow: -3px 4px 6px rgba(141, 90, 159, 0);
+}
+
+.iconsAbout .iconsAboutDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 42px;
   color: #fff;
-  font-size: 27px;
-  line-height: 63px;
+  font-size: 72px;
+  margin-left: 9%;
+  padding-right: 9%;
+}
+
+.iconsAbout .iconsAboutDiv :hover {
+  -webkit-transform: translateY(-3px) scale(1.05);
+          transform: translateY(-3px) scale(1.05);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-box-shadow: -3px 4px 6px rgba(141, 90, 159, 0);
+          box-shadow: -3px 4px 6px rgba(141, 90, 159, 0);
 }
 
 .jupiter {
-  height: 2400px;
+  height: 3000px;
   width: 100%;
   background-color: #716da1;
   -webkit-box-shadow: 3px 3px 3px 3px linear-gradient(#8e61ac, #3d3875);
@@ -215,6 +260,51 @@ p {
           box-sizing: border-box;
   padding: 9px;
   border-radius: 30px;
+}
+
+.jupiter .jupiterAboutMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.jupiter .jupiterAboutJunior {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 81%;
+}
+
+.jupiter .jupiterJunior {
+  margin: 30px;
+  padding: 60px;
+}
+
+.jupiter .jupiterJuniorText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .hackintosh {

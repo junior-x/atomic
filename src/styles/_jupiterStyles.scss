@@ -1,26 +1,40 @@
 h1 {
-  font-family: $fontFamilyRoboto;
-  font-style: italic;
-  display: flex; 
-  text-align:center; 
-  justify-content: center; 
-  padding-top: 210px; 
-  color: white; 
-  font-size: 63px;
+  font-family: $fontFamilyRoboto, sans-serif;
+  font-style: bold;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 210px;
+  color: white;
+  font-size: 42px;
 }
 
 h3 {
   font-family: $fontFamilyRoboto;
   font-style: italic;
-  display: flex; 
-  text-align:center; 
-  justify-content: center; 
-  padding-top: 36px; 
-  color: white; 
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 36px;
+  color: white;
   font-size: 24px;
 }
 
-.icons{
+p {
+  font-family: $fontFamilyRoboto;
+  font-style: italic;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  width: 60%;
+  color: $backgroundColor;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.icons {
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -29,29 +43,49 @@ h3 {
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: row; 
-    padding-top: 42px; 
-    color: $backgroundColor; 
+    flex-direction: row;
+    padding-top: 42px;
+    color: $backgroundColor;
     font-size: 24px;
     padding-left: 36%;
     padding-right: 36%;
   }
 }
 
-p {
-  font-family: $fontFamilyRoboto;
-  font-style: italic;
+.iconsAbout {
+  width: 100%;
   display: flex;
-  text-align:center;
-  justify-content: center;
-  padding: 210px; 
-  color: $backgroundColor;
-  font-size: 27px;
-  line-height: 63px;
+  padding: 3%;
+  cursor: default;
+
+  :hover {
+    // background-color: $fadeColor;
+  transform: translateY(-3px) scale(1.02);
+  transition-duration: 0.9s;
+  box-shadow: (-3px 4px 6px rgba(141, 90, 159, 0));
+  }
+
+  .iconsAboutDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 42px;
+    color: $backgroundColor;
+    font-size: 72px;
+    margin-left: 9%;
+    padding-right: 9%;
+    
+    :hover {
+      // background-color: $fadeColor;
+    transform: translateY(-3px) scale(1.05);
+    transition-duration: 0.3s;
+    box-shadow: (-3px 4px 6px rgba(141, 90, 159, 0));
+    }
+  }
 }
 
 .jupiter {
-  height: 2400px;
+  height: 3000px;
   width: 100%;
   background-color: $jupiterBackground;
   box-shadow: 3px 3px 3px 3px $gradienPrimarytColor;
@@ -82,5 +116,27 @@ p {
     box-sizing: border-box;
     padding: 9px;
     border-radius: 30px;
+  }
+  .jupiterAboutMe {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .jupiterAboutJunior {
+    display: flex;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 81%;
+  }
+  .jupiterJunior {
+    margin: 30px;
+    padding: 60px;
+  }
+  .jupiterJuniorText {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
