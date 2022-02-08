@@ -177,15 +177,6 @@ p {
   cursor: default;
 }
 
-.iconsAbout :hover {
-  -webkit-transform: translateY(-3px) scale(1.02);
-          transform: translateY(-3px) scale(1.02);
-  -webkit-transition-duration: 0.9s;
-          transition-duration: 0.9s;
-  -webkit-box-shadow: -3px 4px 6px rgba(141, 90, 159, 0);
-          box-shadow: -3px 4px 6px rgba(141, 90, 159, 0);
-}
-
 .iconsAbout .iconsAboutDiv {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -210,7 +201,7 @@ p {
 }
 
 .jupiter {
-  height: 3000px;
+  height: 2100px;
   width: 100%;
   background-color: #716da1;
   -webkit-box-shadow: 3px 3px 3px 3px linear-gradient(#8e61ac, #3d3875);
@@ -305,6 +296,90 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.codeDiv {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 180px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.codeDiv .codeGroup {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30px;
+  cursor: default;
+  border-style: dashed;
+  padding: 90px;
+  border: 1px solid #837fb1;
+  border-radius: 30px;
+}
+
+.codeDiv .codeGroup :hover {
+  text-decoration: none;
+  -webkit-transform: translateX(9px) scaleX(1.05);
+          transform: translateX(9px) scaleX(1.05);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.codeDiv .codeJs, .codeDiv .codeReact, .codeDiv .codeSass, .codeDiv .codeNext, .codeDiv .codeSupabase {
+  background-color: #FFE58B;
+  width: 27%;
+  height: 6px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  border-radius: 9px 0px 0px 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: start;
+}
+
+.codeDiv .codeJs :hover, .codeDiv .codeReact :hover, .codeDiv .codeSass :hover, .codeDiv .codeNext :hover, .codeDiv .codeSupabase :hover {
+  color: #fff;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.codeDiv .codeReact {
+  background-color: #8DC8FF;
+  width: 21%;
+  height: 6px;
+}
+
+.codeDiv .codeSass {
+  background-color: #FF559D;
+  width: 15%;
+  height: 6px;
+}
+
+.codeDiv .codeNext {
+  background-color: #564765;
+  width: 10%;
+  height: 6px;
+}
+
+.codeDiv .codeSupabase {
+  background-color: #8EE786;
+  width: 10%;
+  height: 6px;
+  border-radius: 0px 9px 9px 0px;
 }
 
 .hackintosh {
@@ -594,7 +669,7 @@ button:hover {
 }
 
 .skills {
-  height: 2400px;
+  height: 1800px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -602,7 +677,7 @@ button:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #fff;
+  background-color: #716da1;
   -webkit-box-shadow: 3px 3px 3px 3px linear-gradient(#8e61ac, #3d3875);
           box-shadow: 3px 3px 3px 3px linear-gradient(#8e61ac, #3d3875);
 }
@@ -611,8 +686,6 @@ button:hover {
   width: 1124px;
   height: 1305px;
   margin-top: 360px;
-  -webkit-box-shadow: -6px 9px 29px rgba(131, 127, 177, 0.3);
-          box-shadow: -6px 9px 29px rgba(131, 127, 177, 0.3);
   border-radius: 13px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -643,5 +716,76 @@ button:hover {
   height: 150px;
   background: #423c54;
   border-radius: 31px;
+}
+
+.project {
+  height: 600px;
+  width: 100%;
+  background-color: #423c54;
+  -webkit-box-shadow: 3px 3px 3px 3px linear-gradient(#8e61ac, #3d3875);
+          box-shadow: 3px 3px 3px 3px linear-gradient(#8e61ac, #3d3875);
+}
+
+.projectIcons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.projectIcons .projectIconsDiv {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 42px;
+  color: #fff;
+  font-size: 24px;
+  padding-left: 36%;
+  padding-right: 36%;
+}
+
+.projectIconsAbout {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3%;
+  cursor: default;
+}
+
+.projectIconsAbout .projectIconsAboutDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 42px;
+  color: #fff;
+  font-size: 72px;
+  margin-left: 9%;
+  padding-right: 9%;
+}
+
+.projectIconsAbout .projectIconsAboutDiv :hover {
+  -webkit-transform: translateY(-3px) scale(1.05);
+          transform: translateY(-3px) scale(1.05);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-box-shadow: -3px 4px 6px rgba(141, 90, 159, 0);
+          box-shadow: -3px 4px 6px rgba(141, 90, 159, 0);
 }
 /*# sourceMappingURL=App.css.map */

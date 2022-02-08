@@ -4,6 +4,7 @@ import Hackintosh from './pages/hackintoshDiv';
 import Jupiter from './pages/juptierDiv';
 import Skills from './pages/skillsDiv';
 import Education from './pages/educationDiv';
+import ProjectDeveloped from './components/projectDeveloped';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Jupiter />
           <Skills />
           <Education />
+          <ProjectDeveloped />
         </div>
       </div>
     </>

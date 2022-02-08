@@ -1,0 +1,98 @@
+.project {
+  height: 600px;
+  width: 100%;
+  background-color: $codeBackground;
+  box-shadow: 3px 3px 3px 3px $gradienPrimarytColor;
+
+//   .jupiterBack {
+//     align-items: center;
+//     justify-content: center;
+//   }
+
+//   .jupiterMouseSpace {
+//     display: flex;
+//     padding-top: 90px;
+//     justify-content: center;
+//     align-items: center;
+//   }
+
+//   .jupiterWindows {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     padding-top: 180px;
+//   }
+//   .jupiterWindowsScreen {
+//     width: 1200px;
+//     height: 630px;
+//     border: 1px solid $backgroundColor;
+//     box-sizing: border-box;
+//     padding: 9px;
+//     border-radius: 30px;
+//   }
+//   .jupiterAboutMe {
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//   }
+//   .jupiterAboutJunior {
+//     display: flex;
+//     padding: 30px;
+//     display: flex;
+//     justify-content: center;
+//     align-content: center;
+//     width: 81%;
+//   }
+//   .jupiterJunior {
+//     margin: 30px;
+//     padding: 60px;
+//   }
+//   .jupiterJuniorText {
+//     display: flex;
+//     align-items: flex-start;
+//     flex-direction: column;
+//   }
+}
+
+.projectIcons {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .projectIconsDiv {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 42px;
+    color: $backgroundColor;
+    font-size: 24px;
+    padding-left: 36%;
+    padding-right: 36%;
+  }
+}
+
+.projectIconsAbout {
+  width: 100%;
+  display: flex;
+  padding: 3%;
+  cursor: default;
+
+  .projectIconsAboutDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 42px;
+    color: $backgroundColor;
+    font-size: 72px;
+    margin-left: 9%;
+    padding-right: 9%;
+
+    :hover {
+      // background-color: $fadeColor;
+      transform: translateY(-3px) scale(1.05);
+      transition-duration: 0.3s;
+      box-shadow: (-3px 4px 6px rgba(141, 90, 159, 0));
+    }
+  }
+}
