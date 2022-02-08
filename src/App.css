@@ -117,6 +117,37 @@ h3 {
   font-size: 24px;
 }
 
+.icons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.icons .iconsDiv {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 42px;
+  color: #fff;
+  font-size: 24px;
+  padding-left: 36%;
+  padding-right: 36%;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-style: italic;
@@ -179,7 +210,7 @@ p {
 .jupiter .jupiterWindowsScreen {
   width: 1200px;
   height: 630px;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 9px;
@@ -463,5 +494,64 @@ button:hover {
 
 .actionMac .green {
   background-color: #8bdb93;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 42px;
+  width: 100%;
+  padding: 63px;
+}
+
+.skills {
+  height: 2400px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  -webkit-box-shadow: 3px 3px 3px 3px linear-gradient(#8e61ac, #3d3875);
+          box-shadow: 3px 3px 3px 3px linear-gradient(#8e61ac, #3d3875);
+}
+
+.skills .skillsContainer {
+  width: 1124px;
+  height: 1305px;
+  margin-top: 360px;
+  -webkit-box-shadow: -6px 9px 29px rgba(131, 127, 177, 0.3);
+          box-shadow: -6px 9px 29px rgba(131, 127, 177, 0.3);
+  border-radius: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skills .skillsTitle {
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: flex-start;
+          flex-direction: flex-start;
+  padding: 30px;
+}
+
+.code {
+  width: 900px;
+  height: 150px;
+  background: #423c54;
+  border-radius: 31px;
 }
 /*# sourceMappingURL=App.css.map */

@@ -1,0 +1,41 @@
+.h2 {
+  text-align: center;
+  font-size: 42px;
+  width: 100%;
+  padding: 63px;
+}
+
+.skills {
+  height: 2400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: $backgroundColor;
+  box-shadow: 3px 3px 3px 3px $gradienPrimarytColor;
+  
+
+  .skillsContainer {
+    width: 1124px;
+    height: 1305px;
+    margin-top: 360px;
+    box-shadow: -6px 9px 29px rgba(131, 127, 177, 0.3);
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .skillsTitle {
+    width: 100%;
+    flex-direction: flex-start;
+    padding: 30px;
+  }
+}
+
+.code {
+  width: 900px;
+  height: 150px;
+  background: $codeBackground;
+  border-radius: 31px;
+}

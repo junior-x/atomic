@@ -20,6 +20,24 @@ h3 {
   font-size: 24px;
 }
 
+.icons{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .iconsDiv {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row; 
+    padding-top: 42px; 
+    color: $backgroundColor; 
+    font-size: 24px;
+    padding-left: 36%;
+    padding-right: 36%;
+  }
+}
+
 p {
   font-family: $fontFamilyRoboto;
   font-style: italic;
@@ -35,7 +53,7 @@ p {
 .jupiter {
   height: 2400px;
   width: 100%;
-  background-color: #716da1;
+  background-color: $jupiterBackground;
   box-shadow: 3px 3px 3px 3px $gradienPrimarytColor;
 
   .jupiterBack {
@@ -60,7 +78,7 @@ p {
   .jupiterWindowsScreen {
     width: 1200px;
     height: 630px;
-    border: 1px solid #ffffff;
+    border: 1px solid $backgroundColor;
     box-sizing: border-box;
     padding: 9px;
     border-radius: 30px;
