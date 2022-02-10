@@ -14,7 +14,7 @@ function App() {
           <Hackintosh />
           <Jupiter />
           <Skills />
-          <Education />
+          {/* <Education /> */}
           <ProjectDeveloped />
         </div>
       </div>

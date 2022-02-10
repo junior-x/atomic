@@ -23,8 +23,8 @@ export default class LottieSkills extends React.Component {
         return <div>
             <Lottie
                 options={defaultOptions}
-                height={100}
-                width={100}
+                height={50}
+                width={50}
                 isStopped={this.state.isStopped}
                 isPaused={this.state.isPaused}
                 style={{ 

@@ -1,31 +1,27 @@
 import React from 'react';
+// import SkillsList from '../components/skillsList';
 import './../App.css';
-import SvgSkills from "../assets/Skills"
-import LottieSkills from '../assets/skills/lottieSkills';
+import LottieSkills from './../assets/skills/lottieSkills';
+import { AnimateSharedLayout } from "framer-motion";
+// import SkillsCards from '../components/skillsCards';
+import CardsGroup from '../components/cards';
 
-function Skills() {
+
+export default function Skills() {
+
   return (
-    <>
+    <AnimateSharedLayout >
       <div className='skills'>
         <div className='skillsContainer'>
           <div className='skillsTitle'>
             <h2 className='h2'>SKILLS</h2>
             <LottieSkills speed={0.1} />
-          </div>
-          <div className='code'>
-
-          </div>
-          <div className='code'>
-
-          </div>
-          <div className='code'>
+            {/* <SkillsList /> */}
+            <CardsGroup/>
 
           </div>
         </div>
-
       </div>
-    </>
+    </AnimateSharedLayout>
   );
 }
-
-export default Skills;
