@@ -1,0 +1,38 @@
+.actionMacRed {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 10px;
+    flex-direction: row;
+  
+    .actionMacContainerRed {
+      width: 18%;
+      display: flex;
+      height: 60px;
+      justify-content: space-between;
+      padding: 10px;
+      flex-direction: row;
+    }
+  
+    .dotRed {
+      flex-direction: row;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      box-shadow: (2px 2px 4px rgba(0, 0, 0, 0.11));
+    }
+    .redRed {
+      @extend.dotRed;
+      background-color: $dotRed;
+    }
+    .yellowRed {
+      @extend.dotRed;
+      background-color: $dotYello;
+    }
+    .greenRed {
+      @extend.dot;
+      background-color: $dotGreen;
+    }
+  }
+  

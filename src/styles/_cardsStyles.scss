@@ -4,16 +4,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 120px;
-  }
-  
-  .cardBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
+}
+
+.cardBox {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+}
 
 
 /////////////////////////////////
@@ -25,16 +24,14 @@
     width: 100%;
     height: 240px;
     padding: 15px;
-    padding-top: 69px;
     border-radius: 18px;
     margin: 27px;
     box-shadow: 4px 5px 21px rgba(43, 2, 59, 0.452);
+}
 
-    :hover{
-        transform: scale(1.09);
-        transition: 0.3s;
-    }
-    
+:hover.cardBG{
+    transform: scale(1.03);
+    transition: 0.3s;
 }
 
 .rowShort {
@@ -43,13 +40,14 @@
     height: 18px;
     background-color: lightgray;
     margin-top: 10px;
-    
-    :hover{
-        transform: translateX(9px) scaleY(1.06);
-        opacity: 0.6;
-        transition: 0.1s;
-    }
 }
+
+:hover.rowShort{
+    transform: translateX(9px) scaleY(1.06);
+    opacity: 0.6;
+    transition: 0.1s;
+}
+
 
 .rowMed {
     border-radius: 6px;
@@ -57,12 +55,12 @@
     height: 18px;
     background-color: lightgray;
     margin-top: 18px;
+}
 
-    :hover{
-        transform: translateX(9px) scaleY(1.06);
-        opacity: 0.6;
-        transition: 0.1s;
-    }
+:hover.rowMed{
+    transform: translateX(9px) scaleY(1.06);
+    opacity: 0.6;
+    transition: 0.1s;
 }
 
 
@@ -72,14 +70,13 @@
     height: 18px;
     background-color: lightgray;
     margin-top: 18px;
-
-    :hover{
-        transform: translateX(9px) scaleY(1.06);
-        opacity: 0.6;
-        transition: 0.1s;
-    }
 }
 
+:hover.row{
+    transform: translateX(9px) scaleY(1.06);
+    opacity: 0.6;
+    transition: 0.1s;
+}
 
 //////////////////////////////////////////
 ///SMALL
@@ -90,15 +87,14 @@
     width: 36%;
     height: 240px;
     padding: 15px;
-    padding-top: 69px;
     border-radius: 18px;
     margin: 27px;
     box-shadow: 4px 5px 21px rgba(43, 2, 59, 0.452);
 
-    :hover{
-        transform: scale(1.06);
-        transition: 0.3s;
-    }
+}
+:hover.cardBGSmall{
+    transform: scale(1.03);
+    transition: 0.3s;
 }
 
 .rowShortSmall {
@@ -107,12 +103,6 @@
     height: 18px;
     background-color: lightgray;
     margin-top: 10px;
-
-    :hover{
-        transform: translateX(9px) scaleY(1.06);
-        opacity: 0.6;
-        transition: 0.1s;
-    }
 }
 
 .rowMedSmall {
@@ -121,12 +111,6 @@
     height: 18px;
     background-color: lightgray;
     margin-top: 18px;
-
-    :hover{
-        transform: translateX(9px) scaleY(1.06);
-        opacity: 0.6;
-        transition: 0.1s;
-    }
 }
 
 .rowSmall {
@@ -135,16 +119,23 @@
     height: 18px;
     background-color: lightgray;
     margin-top: 18px;
-
-    :hover{
-        transform: translateX(9px) scaleY(1.06);
-        opacity: 0.6;
-        transition: 0.1s;
-    }
 }
 
 
+:hover.rowShortSmall{
+    transform: translateX(9px) scaleY(1.06);
+    opacity: 0.6;
+    transition: 0.1s;
+}
 
+:hover.rowMedSmall{
+    transform: translateX(9px) scaleY(1.06);
+    opacity: 0.6;
+    transition: 0.1s;
+}
 
-
-
+:hover.rowSmall{
+    transform: translateX(9px) scaleY(1.06);
+    opacity: 0.6;
+    transition: 0.1s;
+}

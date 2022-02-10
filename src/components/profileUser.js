@@ -7,11 +7,13 @@ function ProfileUser() {
     return (
         <div className="hack">
             <div >
-                <ActionMac/>
+                <div style={{ width: '100%', paddingRight: '30%'}}>
+                    <ActionMac  />
+                </div>
                 <img src={AppleLogo} class="grid-3"></img>
                 <div class="grid-9">
-                    <div style={{width: '21%'}}>Hackintosh</div>
-                    <div style={{color: "rgba(0, 0, 0, 0.21)", width: '36%'}}>/ Junior</div>
+                    <div style={{ width: 'fit-content' }}>Hackintosh</div>
+                    <div style={{ color: "rgba(0, 0, 0, 0.21)", width: '18%', textAlign: 'end' }}>/ Junior</div>
                 </div>
                 <div class="grid-8">Developer</div>
                 <div class="skillsButton">

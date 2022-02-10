@@ -37,6 +37,15 @@ $colorCsharp: #90A970;
 $fontFamilyRoboto: 'Roboto', sans-serif;
 $fontFamilyAbhaya: 'Abhaya Libre', serif;
 
+
+
+::selection {
+    color: rgb(2, 1, 1);
+    background: rgb(238, 230, 125);
+}
+
+  
+
 // Reset
 // ---------
 

@@ -11,10 +11,10 @@ function App() {
     <>
       <div >
         <div >
-          <Hackintosh />
           <Jupiter />
           <Skills />
-          {/* <Education /> */}
+          {/* <Hackintosh />
+          <Education /> */}
           <ProjectDeveloped />
         </div>
       </div>

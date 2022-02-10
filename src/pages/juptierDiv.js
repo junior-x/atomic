@@ -14,9 +14,9 @@ function Jupiter() {
   return (
     <>
       <div className='jupiter'>
-        <div className='jupiterMouseSpace' >
+        {/* <div className='jupiterMouseSpace' >
           <img src={MousePng} style={{ height: '21%', width: '1.5%' }} ></img>
-        </div>
+        </div> */}
 
         <div className='jupiterWindows'>
           <div className='jupiterWindowsScreen'>
@@ -25,6 +25,10 @@ function Jupiter() {
           </div>
         </div>
 
+        <div className='jupiterMouseSpace' >
+          <img src={MousePng} style={{ height: '21%', width: '1.5%' }} ></img>
+        </div>
+        
         <div className='jupiterAboutMe'>
           <h1>ABOUT ME</h1>
           <LottieWaves speed={0.5} />

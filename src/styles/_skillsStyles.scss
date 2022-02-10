@@ -6,21 +6,21 @@
 }
 
 .skills {
-  height: 1800px;
+  height: fit-content;
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: $jupiterBackground;
-  box-shadow: 3px 3px 3px 3px $gradienPrimarytColor;
   
 
   .skillsContainer {
-    width: 1124px;
-    height: 1305px;
-    margin-top: 36px;
+    width: 60%;
+    height: 100%;
+    margin: 240px;
     border-radius: 13px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space;
     align-items: center;
     flex-direction: column;
   }
