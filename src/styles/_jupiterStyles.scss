@@ -81,6 +81,8 @@ p {
   width: 100%;
   background-color: $jupiterBackground;
   box-shadow: 3px 3px 3px 3px $gradienPrimarytColor;
+  background:linear-gradient(#1d1329 6%, #716da1 100%);;
+  
 
   .jupiterBack {
     align-items: center;
@@ -107,6 +109,7 @@ p {
     box-sizing: border-box;
     padding: 9px;
     border-radius: 30px;
+    background: radial-gradient(#716da1cc -100%, #47345f00 100%);
   }
   .jupiterAboutMe {
     display: flex;

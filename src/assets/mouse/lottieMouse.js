@@ -1,9 +1,8 @@
 import React from 'react'
 import Lottie from 'react-lottie';
-import * as animationData from './jupiterLoop.json'
-import "./../../App.css"
+import * as animationData from './mouseLoop.json'
 
-export default class LottieJupiter extends React.Component {
+export default class LottieMouse extends React.Component {
 
     constructor(props) {
         super(props);
@@ -15,23 +14,26 @@ export default class LottieJupiter extends React.Component {
         const defaultOptions = {
             loop: true,
             autoplay: true,
-            speed: 0.1,
             animationData: animationData,
             rendererSettings: {
                 preserveAspectRatio: 'xMidYMid slice'
-            },
-            
+            }
         };
 
-        return <div className='Loading'>
+        return <div>
             <Lottie
                 options={defaultOptions}
-                height={400}
-                width={630}
+                height={300}
+                width={300}
                 isStopped={this.state.isStopped}
                 isPaused={this.state.isPaused}
-                style={{ pointerEvents: "none" }}
-                hover
+                style={{ 
+                    pointerEvents: "none",  
+                    height: "93px",
+                    width: "60px",
+                    borderRadius: '9px',
+                    padding: '10px',
+                }}
             />
         </div>
     }

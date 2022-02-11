@@ -216,6 +216,8 @@ p {
   background-color: #716da1;
   -webkit-box-shadow: 3px 3px 3px 3px linear-gradient(#8e61ac, #3d3875);
           box-shadow: 3px 3px 3px 3px linear-gradient(#8e61ac, #3d3875);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(6%, #1d1329), to(#716da1));
+  background: linear-gradient(#1d1329 6%, #716da1 100%);
 }
 
 .jupiter .jupiterBack {
@@ -261,6 +263,7 @@ p {
           box-sizing: border-box;
   padding: 9px;
   border-radius: 30px;
+  background: radial-gradient(#716da1cc -100%, #47345f00 100%);
 }
 
 .jupiter .jupiterAboutMe {
@@ -1084,5 +1087,42 @@ li:last-child {
 
 .actionMacRed .greenRed {
   background-color: #8bdb93;
+}
+
+.loading-1 {
+  background: #094CFA;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border-radius: 4px;
+  /* Here we declare our inline animation */
+  -webkit-animation: fade-in 3s linear infinite;
+          animation: fade-in 3s linear infinite;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 /*# sourceMappingURL=App.css.map */

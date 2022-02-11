@@ -3,6 +3,7 @@ import './../App.css';
 import MousePng from "./../assets/mouse.png"
 import ActionMac from '../components/actionMac';
 import LottieJupiter from './../assets/jupiter/lottieJupiter';
+import LottieMouse from './../assets/mouse/lottieMouse';
 import JuniorPic from "./../assets/JuniorPic.png"
 import LottieWaves from '../assets/waves/lottieWaves';
 import { GiFallingStar } from 'react-icons/gi';
@@ -20,13 +21,15 @@ function Jupiter() {
 
         <div className='jupiterWindows'>
           <div className='jupiterWindowsScreen'>
+            <div style={{paddingRight: '30%'}}>
             <ActionMac />
+            </div>
             <LottieJupiter speed={0.1} />
           </div>
         </div>
 
         <div className='jupiterMouseSpace' >
-          <img src={MousePng} style={{ height: '21%', width: '1.5%' }} ></img>
+          <LottieMouse/>
         </div>
         
         <div className='jupiterAboutMe'>
@@ -42,11 +45,11 @@ function Jupiter() {
         </div>
         <div className='codeDiv'>
           <div className='codeGroup'>
-            <div className='codeJs'><h3 style={{margin: '21px', fontSize: '18px', color: "rgba(0 0 0 0)"}}><em>% Javascript</em></h3></div>
-            <div className='codeReact'><h3 style={{margin: '21px', fontSize: '18px', color: "rgba(0 0 0 0)"}}><em>% React</em></h3></div>
-            <div className='codeSass'><h3 style={{margin: '21px', fontSize: '18px', color: "rgba(0 0 0 0)"}}><em>% Sass</em></h3></div>
-            <div className='codeNext'><h3 style={{margin: '21px', fontSize: '18px', color: "rgba(0 0 0 0)"}}><em>% NextJS</em></h3></div>
-            <div className='codeSupabase'><h3 style={{margin: '21px', fontSize: '18px', color: "rgba(0 0 0 0)"  }}><em>% Supabase</em></h3></div>
+            <div className='codeJs'><h3 style={{margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)"}}><em>% Javascript</em></h3></div>
+            <div className='codeReact'><h3 style={{margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)"}}><em>% React</em></h3></div>
+            <div className='codeSass'><h3 style={{margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)"}}><em>% Sass</em></h3></div>
+            <div className='codeNext'><h3 style={{margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)"}}><em>% NextJS</em></h3></div>
+            <div className='codeSupabase'><h3 style={{margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)"  }}><em>% Supabase</em></h3></div>
           </div>
         </div>
         <div className='projectIconsAbout' >
