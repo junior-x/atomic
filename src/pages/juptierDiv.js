@@ -16,21 +16,24 @@ function Jupiter() {
   return (
     <>
       <div className='jupiter'>
-        <NavBar/>
-
+        <NavBar />
+        <div className='jupiterHelloWorld'>
+          👋 Hello World
+        </div>
         <div className='jupiterWindows'>
+
           <div className='jupiterWindowsScreen'>
-            <div style={{paddingRight: '30%'}}>
-            <ActionMac />
+            <div style={{ paddingRight: '30%' }}>
+              <ActionMac />
             </div>
             <LottieJupiter speed={0.1} />
           </div>
         </div>
 
         <div className='jupiterMouseSpace' >
-          <LottieMouse/>
+          <LottieMouse />
         </div>
-        
+
         <div className='jupiterAboutMe'>
           <h1>ABOUT ME</h1>
           <LottieWaves speed={0.5} />
@@ -44,11 +47,11 @@ function Jupiter() {
         </div>
         <div className='codeDiv'>
           <div className='codeGroup'>
-            <div className='codeJs'><h3 style={{margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)"}}><em>% Javascript</em></h3></div>
-            <div className='codeReact'><h3 style={{margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)"}}><em>% React</em></h3></div>
-            <div className='codeSass'><h3 style={{margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)"}}><em>% Sass</em></h3></div>
-            <div className='codeNext'><h3 style={{margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)"}}><em>% NextJS</em></h3></div>
-            <div className='codeSupabase'><h3 style={{margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)"  }}><em>% Supabase</em></h3></div>
+            <div className='codeJs'><h3 style={{ margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)" }}><em>% Javascript</em></h3></div>
+            <div className='codeReact'><h3 style={{ margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)" }}><em>% React</em></h3></div>
+            <div className='codeSass'><h3 style={{ margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)" }}><em>% Sass</em></h3></div>
+            <div className='codeNext'><h3 style={{ margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)" }}><em>% NextJS</em></h3></div>
+            <div className='codeSupabase'><h3 style={{ margin: '21px', fontSize: '15px', color: "rgba(0 0 0 0)" }}><em>% Supabase</em></h3></div>
           </div>
         </div>
         <div className='projectIconsAbout' >

@@ -1,6 +1,6 @@
 import React from "react";
 import "./../App.css";
-import { BiCode } from 'react-icons/bi';
+import { SiBehance } from 'react-icons/si';
 import { FaFigma, FaGithub } from 'react-icons/fa';
 import { IoMdPlanet } from 'react-icons/io';
 
@@ -14,9 +14,9 @@ export default function NavBar() {
                     </div>
                     <div style={{width: '100%'}}></div>
                     <div className="navBarSocial">
-                        <div className="navBarIconsFigma"><FaFigma /></div>
-                        <div className="navBarIcons"><BiCode /> </div>
-                        <div className="navBarIconsGithub"><FaGithub /></div>
+                        <div className="navBarIconsFigma"><FaFigma  onClick={() => window.open("https://www.figma.com/@juniorx" )} /></div>
+                        <div className="navBarIcons"><SiBehance onClick={() => window.open("https://github.com/junior-x")} /> </div>
+                        <div className="navBarIconsGithub"><FaGithub onClick={() => window.open("https://github.com/junior-x")}  /></div>
                     </div>
                 </div>
             </div>

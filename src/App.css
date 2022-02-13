@@ -233,7 +233,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 90px;
+  padding-top: 60px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -311,12 +311,65 @@ p {
           flex-direction: column;
 }
 
+.jupiterHelloWorld {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif, sans-serif;
+  font-style: bold;
+  font-size: 21px;
+}
+
+/* The typing effect */
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@-webkit-keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
 .codeDiv {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 180px;
+  height: 360px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1180,8 +1233,8 @@ li:last-child {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 21%;
-  font-size: 36px;
+  width: 18%;
+  font-size: 27px;
   padding-right: 45px;
 }
 
@@ -1211,5 +1264,54 @@ li:last-child {
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
   cursor: pointer;
+}
+
+.projectsDiv {
+  height: 450px;
+  width: 100%;
+  background-color: #423c54;
+  padding: 3%;
+}
+
+.projectsTitle {
+  color: #fff;
+  font-family: "Roboto", sans-serif, sans-serif;
+  font-style: bold;
+  text-align: center;
+  font-size: 21px;
+}
+
+.projectsPacman {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projectsPacman :hover {
+  color: #FFE58B;
+  -webkit-transform: rotateY(30px);
+          transform: rotateY(30px);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.educationDiv {
+  height: 900px;
+  width: 100%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=App.css.map */

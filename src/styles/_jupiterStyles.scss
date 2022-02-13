@@ -81,8 +81,7 @@ p {
   width: 100%;
   background-color: $jupiterBackground;
   box-shadow: 3px 3px 3px 3px $gradienPrimarytColor;
-  background:linear-gradient(#1d1329 6%, #716da1 100%);;
-  
+  background: linear-gradient(#1d1329 6%, #716da1 100%);
 
   .jupiterBack {
     align-items: center;
@@ -91,7 +90,7 @@ p {
 
   .jupiterMouseSpace {
     display: flex;
-    padding-top: 90px;
+    padding-top: 60px;
     justify-content: center;
     align-items: center;
   }
@@ -135,10 +134,42 @@ p {
   }
 }
 
+.jupiterHelloWorld {
+  width: 100%;
+  display: flex;
+  color: $backgroundColor;
+  justify-content: center;
+  text-align: center;
+  font-family: $fontFamilyRoboto, sans-serif;
+  font-style: bold;
+  font-size: 21px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
 .codeDiv {
   width: 100%;
   display: flex;
-  height: 180px;
+  height: 360px;
   justify-content: center;
   align-items: center;
 
