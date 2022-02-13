@@ -20,7 +20,7 @@ export default class LottieSkills extends React.Component {
             }
         };
 
-        return <div>
+        return <div style={{margin: '27px', width: 'fit-content'}}>
             <Lottie
                 options={defaultOptions}
                 height={100}

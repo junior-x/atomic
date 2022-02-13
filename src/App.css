@@ -211,7 +211,7 @@ p {
 }
 
 .jupiter {
-  height: 2100px;
+  height: 2400px;
   width: 100%;
   background-color: #716da1;
   -webkit-box-shadow: 3px 3px 3px 3px linear-gradient(#8e61ac, #3d3875);
@@ -252,7 +252,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 180px;
+  padding-top: 90px;
 }
 
 .jupiter .jupiterWindowsScreen {
@@ -685,10 +685,17 @@ button:hover {
 }
 
 .h2 {
-  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   font-size: 42px;
-  width: 100%;
-  padding: 63px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .skills {
@@ -734,6 +741,11 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: flex-start;
           flex-direction: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 30px;
 }
 
@@ -1124,5 +1136,80 @@ li:last-child {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
+}
+
+.navBar, .navBar .navBarDiv {
+  height: 90px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBar .navBarDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navBar .navBarLogo {
+  color: #fff;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 42px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: thin;
+}
+
+.navBar .navBarSocial {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 21%;
+  font-size: 36px;
+  padding-right: 45px;
+}
+
+.navBarIcons :hover {
+  color: #FFE58B;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.navBarIconsFigma :hover {
+  color: #FF559D;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.navBarIconsFigma :hover {
+  color: #FF559D;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.navBarIconsGithub :hover {
+  color: #8DC8FF;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer;
 }
 /*# sourceMappingURL=App.css.map */

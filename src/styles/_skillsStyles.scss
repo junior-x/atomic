@@ -1,8 +1,11 @@
 .h2 {
-  text-align: center;
+  align-self : center;
   font-size: 42px;
-  width: 100%;
-  padding: 63px;
+  width: fit-content;
+  color: $backgroundColor;
+  font-family: $fontFamilyRoboto;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .skills {
@@ -28,6 +31,8 @@
   .skillsTitle {
     width: 100%;
     flex-direction: flex-start;
+    flex-wrap: wrap;
+    display: flex;
     padding: 30px;
   }
 }

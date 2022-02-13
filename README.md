@@ -6,7 +6,7 @@
  
  <p align="center"><em>Site pessoal</p>
 
- ![App Preview](/assets/screen/014.PNG)
+ ![App Preview](/assets/screen/015.PNG)
 
 
 <p align="center"><em>Links para o SITE && PROJETO </p>
@@ -232,6 +232,20 @@
 ---
 
 ![App Preview](/assets/screen/014.PNG)
+
+--- 
+--- 
+
+<h1 href="#prototipo" align="center">V 0.0.1</h1>
+
+[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+
+[en_US]Password field component and Sing Up route screen. 
+
+
+---
+
+![App Preview](/assets/screen/015.PNG)
 
 --- 
 

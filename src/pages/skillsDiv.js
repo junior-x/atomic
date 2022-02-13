@@ -20,7 +20,6 @@ export default function Skills() {
             {/* <SkillsList /> */}
             <ProfileUser />
             <CardsGroup/>
-
           </div>
         </div>
       </div>

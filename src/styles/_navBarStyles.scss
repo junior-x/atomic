@@ -1,0 +1,68 @@
+.navBar {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .navBarDiv {
+    @extend.navBar;
+    display: flex;
+  }
+
+  .navBarLogo {
+    color: $backgroundColor;
+    width: 30%;
+    display: flex;
+    font-size: 42px;
+    font-family: $fontFamilyRoboto;
+    font-style: normal;
+    font-weight: thin;
+  }
+
+  .navBarSocial {
+    color: $backgroundColor;
+    display: flex;
+    flex-direction: row;
+    width: 21%;
+    font-size: 36px;
+    padding-right: 45px;
+  }
+}
+
+.navBarIcons {
+
+  :hover {
+    color: $colorJavascript;
+    transition-duration: 0.3s;
+    cursor: pointer;
+  }
+  
+}
+
+.navBarIconsFigma {
+      
+  :hover {
+      color: $colorSass;
+      transition-duration: 0.3s;
+      cursor: pointer;
+  }
+}
+
+.navBarIconsFigma {
+      
+  :hover {
+      color: $colorSass;
+      transition-duration: 0.3s;
+      cursor: pointer;
+  }
+}
+
+.navBarIconsGithub {
+      
+  :hover {
+      color: $colorReactJS;
+      transition-duration: 0.3s;
+      cursor: pointer;
+  }
+}

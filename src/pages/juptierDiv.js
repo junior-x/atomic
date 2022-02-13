@@ -9,15 +9,14 @@ import LottieWaves from '../assets/waves/lottieWaves';
 import { GiFallingStar } from 'react-icons/gi';
 import { BiCode, BiCoffee } from 'react-icons/bi';
 import { FaGithub } from 'react-icons/fa';
+import NavBar from '../components/navBar';
 
 function Jupiter() {
 
   return (
     <>
       <div className='jupiter'>
-        {/* <div className='jupiterMouseSpace' >
-          <img src={MousePng} style={{ height: '21%', width: '1.5%' }} ></img>
-        </div> */}
+        <NavBar/>
 
         <div className='jupiterWindows'>
           <div className='jupiterWindowsScreen'>
