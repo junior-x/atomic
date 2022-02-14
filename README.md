@@ -6,7 +6,7 @@
  
  <p align="center"><em>Site pessoal</p>
 
- ![App Preview](/assets/screen/017.PNG)
+ ![App Preview](/assets/screen/018.PNG)
 
 
 <p align="center"><em>Links para o SITE && PROJETO </p>
@@ -51,9 +51,9 @@
 
 <h1 href="#prototipo" align="center">V 0.0.0</h1>
 
-[pt_BR]Desenvolvimento da estrutura de Interface do Usuário e integração com Versel através do NextJS. 
+[pt_BR]Alguns blocos para a simplificação do  design da interface. 
 
-[en_US]User Interface development using ReactJS integrating with NextJS to store API in Supabase data base and deplyng on Vercel AWS machines. 
+[en_US]Simple blocks just for exemplification for the designs. 
 
 ![App Preview](/assets/screen/01.PNG)
 
@@ -61,9 +61,9 @@
 
 <h1 href="#prototipo" align="center">V 0.0.1</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Importação dos SVGs gerados atraves do layout desenvolvido no figma. 
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Figma SVGs importation in the site.
 
 
 ---
@@ -72,11 +72,11 @@
 
 --- 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.2</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Alinhamento e enfilamento das colunas. 
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Align and ordenation for the list elements. 
 
 
 ---
@@ -86,11 +86,11 @@
 --- 
 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.3</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Barra de navegação colorida no topo do site. 
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Colorful navbar at the top of the eb site. 
 
 
 ---
@@ -100,11 +100,11 @@
 --- 
 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.4</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Animação simples do planeta Jupiter e uma lua.
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Simple Jupiter animation with one of the moons. 
 
 
 ---
@@ -114,11 +114,11 @@
 --- 
 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.5</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Animação em repetição de quadrados simulando os commits do Github.
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Squares loop animations simulating commits interface from the Github.
 
 
 ---
@@ -128,11 +128,11 @@
 --- 
 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.6</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Organização simples da coluna de experiências.
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Simple organization for the skills column. 
 
 
 ---
@@ -142,11 +142,11 @@
 --- 
 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.7</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Animação simples de um grifado em looping.
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Underline simple animation loop. 
 
 
 ---
@@ -156,11 +156,11 @@
 --- 
 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.8</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Desenvolvimento da diagramação sobre o perfil.
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Diagramation for the profile informations. 
 
 
 ---
@@ -170,11 +170,11 @@
 --- 
 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.9</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Linguagens de programação mais usados por mim. 
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Top code languages used from me. 
 
 
 ---
@@ -183,11 +183,11 @@
 
 --- 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.10</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Organização de cartões para futuro setor de habilidades. 
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Cards grid for the next skills sector.
 
 
 ---
@@ -196,11 +196,11 @@
 
 --- 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.11</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Reorganização da ideia inicial que seria no topo para logo após o setor de perfil.
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Reorder from the original ideia wherer the apple would go at the top to after profile user section.
 
 
 ---
@@ -209,11 +209,11 @@
 
 --- 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.12</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Deisgn para a sujestão de uma ação logo após a home page.
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Action design sujestion for the user after the home page. 
 
 
 ---
@@ -222,58 +222,72 @@
 
 --- 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.13</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]A ideia para a página inicial passa a ser o planeta Jupiter.
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]The new ideia for the home page it is the Jupiter at the center of the page. 
 
 
 ---
 
 ![App Preview](/assets/screen/014.PNG)
 
+
 --- 
---- 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.14</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Antes a idéia era os botões dos tópicos ser a interação inicial do usuário que agora é subistituida por uma barra de navegação aonde ainda estou decidindo a insistência dela ou não na navegação durante o site.
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Some NavBar implemention for the user, so far still in doubt if that should keep on screen with the navigation inside de hole web site. 
 
 
 ---
 
 ![App Preview](/assets/screen/015.PNG)
 
+
 --- 
---- 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.15</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Animação simples do Pac-Man que em um futuro irei aplicar no site principal do tema criado por mim.
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Simple Pac Man animation that I think it will be on the theme site too.
 
 
 ---
 
 ![App Preview](/assets/screen/016.PNG)
 
+
 --- 
---- 
 
-<h1 href="#prototipo" align="center">V 0.0.1</h1>
+<h1 href="#prototipo" align="center">V 0.0.16</h1>
 
-[pt_BR]Implementação do campo de senhas e componentes para a tela de cadastro. 
+[pt_BR]Desenvolvimento da área de projetos aonde será listados trabalhos e app criados sendo expostos com um ícone em animação. 
 
-[en_US]Password field component and Sing Up route screen. 
+[en_US]Projects div creation where will be listed all the content and app developed by me wwith some simple icons in loop.
 
 
 ---
 
 ![App Preview](/assets/screen/017.PNG)
+
+
+--- 
+
+<h1 href="#prototipo" align="center">V 0.0.17</h1>
+
+[pt_BR]Animação do ícone para o direcionamento ao projeto desenvolvido por mim em JS, NextJS, Supabase e ReactJS.
+
+[en_US]Bad-Code icon animation for the hackintosh personal web site.
+
+
+---
+
+![App Preview](/assets/screen/018.PNG)
 
 --- 
 
