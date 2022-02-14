@@ -1279,25 +1279,58 @@ li:last-child {
   font-style: bold;
   text-align: center;
   font-size: 21px;
+  width: 100%;
 }
 
-.projectsPacman {
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.projectsList {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space;
+      -ms-flex-pack: space;
+          justify-content: space;
+  width: 100%;
+}
+
+.projectsHackintosh {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.projectsHackintosh :hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.projectsPacman {
+  width: 33.3333333333%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .projectsPacman :hover {
-  color: #FFE58B;
-  -webkit-transform: rotateY(30px);
-          transform: rotateY(30px);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.projectsbadCode {
+  width: 33.3333333333%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projectsbadCode :hover {
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
   cursor: pointer;

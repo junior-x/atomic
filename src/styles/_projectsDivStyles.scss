@@ -11,17 +11,52 @@
     font-style: bold;
     text-align: center;
     font-size: 21px;
+    width: 100%;
 }
 
-.projectsPacman {
-    width: 100%; 
-    justify-content: center; 
-    align-items: center; 
+.projectsList {
     display: flex;
+    justify-content: space;
+    width: 100%;
+}
+
+.projectsHackintosh {
+    width: 100%; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
 
     :hover{ 
-        color: $colorJavascript;
-        transform: rotateY(30px);
+        transition-duration: 0.3s;
+        cursor: pointer;
+    }
+}
+
+// .projectsHackintosh {
+//     width: 33.3333333333%; 
+//     align-items: center; 
+
+//     :hover{ 
+//         transition-duration: 0.3s;
+//         cursor: pointer;
+//     }
+// }
+
+.projectsPacman {
+    width: 33.3333333333%; 
+    align-items: center; 
+
+    :hover{ 
+        transition-duration: 0.3s;
+        cursor: pointer;
+    }
+}
+
+.projectsbadCode {
+    width: 33.3333333333%; 
+    align-items: center; 
+
+    :hover{ 
         transition-duration: 0.3s;
         cursor: pointer;
     }
